@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
+import j4
 
-IS_DEV = os.environ['SERVER_SOFTWARE'].startswith('Dev')  # Development server
+IS_DEV =j4.environ['SERVER_SOFTWARE'].startswith('Dev')  # Development server
